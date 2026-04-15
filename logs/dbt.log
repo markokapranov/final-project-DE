@@ -29,3 +29,134 @@ Runtime Error
 [0m15:38:53.149661 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002066800B0E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002066800AC30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020666CEA4B0>]}
 [0m15:38:53.150750 [debug] [MainThread]: Flushing usage events
 [0m15:38:54.835328 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:40:01.172998 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B34EB82A80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B351E537D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B351589160>]}
+
+
+============================== 17:40:01.187701 | ef613196-0627-4f4e-a64a-d7316c366631 ==============================
+[0m17:40:01.187701 [info ] [MainThread]: Running with dbt=1.11.7
+[0m17:40:01.189714 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Acer\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt build', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:40:01.191408 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Acer\PycharmProjects\FinalProject\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:40:01.194400 [debug] [MainThread]: Command `dbt build` failed at 17:40:01.193401 after 0.33 seconds
+[0m17:40:01.195399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B34F277740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B351D819A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B350853C80>]}
+[0m17:40:01.196911 [debug] [MainThread]: Flushing usage events
+[0m17:40:02.664350 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:54:39.706425 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F4D648710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F4D73CE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F4D64B920>]}
+
+
+============================== 17:54:39.716265 | 00480ad2-9589-423c-953c-85f01bb23da4 ==============================
+[0m17:54:39.716265 [info ] [MainThread]: Running with dbt=1.11.7
+[0m17:54:39.718673 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Acer\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init DBTProj', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:54:39.767045 [debug] [MainThread]: Starter project path: C:\Users\Acer\PycharmProjects\FinalProject\.venv\Lib\site-packages\dbt\include\starter_project
+[0m17:54:39.807847 [info ] [MainThread]: 
+Your new dbt project "DBTProj" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:54:39.809849 [info ] [MainThread]: Setting up your profile.
+[0m17:54:39.817950 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m17:54:39.821947 [debug] [MainThread]: Command `dbt init` failed at 17:54:39.821947 after 0.41 seconds
+[0m17:54:39.823945 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F4D73CE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F4DE3A1B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F4DAFA450>]}
+[0m17:54:39.824940 [debug] [MainThread]: Flushing usage events
+[0m17:54:41.336474 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:54:57.064134 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A596386F60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A59A032780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A59A030A70>]}
+
+
+============================== 17:54:57.073442 | dc2e05a2-a677-4c9a-807b-873089f755e5 ==============================
+[0m17:54:57.073442 [info ] [MainThread]: Running with dbt=1.11.7
+[0m17:54:57.076505 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Acer\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt build', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:54:57.078529 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Acer\PycharmProjects\FinalProject\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:54:57.082542 [debug] [MainThread]: Command `dbt build` failed at 17:54:57.081528 after 0.31 seconds
+[0m17:54:57.083591 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A599BBE030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A5998AA000>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A596574500>]}
+[0m17:54:57.084591 [debug] [MainThread]: Flushing usage events
+[0m17:54:58.616252 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:59:36.247209 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA6C20FB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA8426AB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AAAAF9B80>]}
+
+
+============================== 17:59:36.267618 | d4837a64-dd8c-4acd-8a1d-0d2911d412a6 ==============================
+[0m17:59:36.267618 [info ] [MainThread]: Running with dbt=1.11.7
+[0m17:59:36.270675 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Acer\\.dbt', 'invocation_command': 'dbt init DBTProj', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:59:36.325104 [debug] [MainThread]: Starter project path: C:\Users\Acer\PycharmProjects\FinalProject\.venv\Lib\site-packages\dbt\include\starter_project
+[0m17:59:36.368662 [info ] [MainThread]: 
+Your new dbt project "DBTProj" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:59:36.370750 [info ] [MainThread]: Setting up your profile.
+[0m18:01:40.611647 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m18:01:40.615636 [debug] [MainThread]: Command `dbt init` failed at 18:01:40.615636 after 124.68 seconds
+[0m18:01:40.617684 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA6C20FB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA9C83980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AAC2DDA30>]}
+[0m18:01:40.619725 [debug] [MainThread]: Flushing usage events
+[0m18:01:42.776004 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:02:38.997549 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E73600A5A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E738DE5BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E736389970>]}
+
+
+============================== 18:02:39.008822 | 27cc31ef-d8fd-49bf-a678-17d01ab425db ==============================
+[0m18:02:39.008822 [info ] [MainThread]: Running with dbt=1.11.7
+[0m18:02:39.010825 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Acer\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init DBTProj', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:02:39.071931 [info ] [MainThread]: A project called DBTProj already exists here.
+[0m18:02:39.076563 [debug] [MainThread]: Command `dbt init` succeeded at 18:02:39.075564 after 0.49 seconds
+[0m18:02:39.078579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E73600A5A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7393BA630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E73A7329F0>]}
+[0m18:02:39.079588 [debug] [MainThread]: Flushing usage events
+[0m18:02:47.636789 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:02:55.942945 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002866BF25C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002866BF25D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002866BF25BB0>]}
+
+
+============================== 18:02:55.950945 | 34798c38-4bbd-4bae-ba05-32185a2cabd0 ==============================
+[0m18:02:55.950945 [info ] [MainThread]: Running with dbt=1.11.7
+[0m18:02:55.953438 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Acer\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init DBTProj', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:02:56.002912 [debug] [MainThread]: Starter project path: C:\Users\Acer\PycharmProjects\FinalProject\.venv\Lib\site-packages\dbt\include\starter_project
+[0m18:02:56.055276 [info ] [MainThread]: 
+Your new dbt project "DBTProj" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:02:56.059765 [info ] [MainThread]: Setting up your profile.
+[0m18:03:00.980837 [debug] [MainThread]: Command `dbt init` succeeded at 18:03:00.979471 after 5.31 seconds
+[0m18:03:00.983159 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002866B8D35C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002866BCA40B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002866D7FD610>]}
+[0m18:03:00.986156 [debug] [MainThread]: Flushing usage events
+[0m18:03:02.350499 [debug] [MainThread]: An error was encountered while trying to flush usage events
