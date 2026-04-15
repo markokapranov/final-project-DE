@@ -1,4 +1,4 @@
-stg_yellow_tripdata_2025-05.sqlwith renamed as (
+with renamed as (
 
     select
         VendorID as vendor_id,
